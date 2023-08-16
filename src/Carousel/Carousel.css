@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
 }
@@ -19,7 +19,6 @@
     justify-content: center;
     height: 400px;
     background-color: #333;
-    transition: background-color 0.3s, color 0.3s;
     overflow: hidden;
 }
 
@@ -76,3 +75,7 @@
 .side-button.right {
     right: 10px;
 }
+.side-button:hover {
+    background-color: rgba(10, 214, 157, 0.741);
+    transform: translateY(-50%) scale(1.1);
+  }

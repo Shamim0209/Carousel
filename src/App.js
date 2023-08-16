@@ -11,7 +11,7 @@ export default function App() {
     <div className="App">
       <Carousel>
         {natureImages.map((imageUrl, index) => (
-          <CarouselItem key={index} imageUrl={imageUrl} index={index+1} />
+          <CarouselItem key={index} imageUrl={imageUrl} index={index + 1} />
         ))}
       </Carousel>
     </div>
